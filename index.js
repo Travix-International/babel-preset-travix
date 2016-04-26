@@ -1,3 +1,5 @@
+var moduleExportsPlugin = require('babel-plugin-add-module-exports');
+
 module.exports = {
   presets: [
     require('babel-preset-es2015'),
@@ -5,7 +7,9 @@ module.exports = {
     require('babel-preset-react'),
   ],
   plugins: [
-    require('babel-plugin-add-module-exports'),
+    moduleExportsPlugin.default
+      ? moduleExportsPlugin.default
+      : moduleExportsPlugin,
     require('babel-plugin-transform-es2015-object-super')
   ],
 };
