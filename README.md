@@ -1,4 +1,4 @@
-# babel-preset-travix [![Build Status](https://img.shields.io/travis/travix-international/babel-preset-travix/master.svg)](https://travis-ci.org/travix-international/babel-preset-travix) [![npm](https://img.shields.io/npm/v/babel-preset-travix.svg)](https://www.npmjs.com/package/babel-preset-travix)
+# babel-preset-travix [![Build Status](https://img.shields.io/travis/Travix-International/babel-preset-travix/master.svg)](https://travis-ci.org/Travix-International/babel-preset-travix) [![npm](https://img.shields.io/npm/v/babel-preset-travix.svg)](https://www.npmjs.com/package/babel-preset-travix)
 
 > A babel preset for transforming your JavaScript for Travix.
 
