@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "eslint": "^3.9.1",
-    "eslint-config-travix": "^2.2.0",
+    "eslint-config-travix": "^5.0.0",
     "eslint-plugin-import": "^2.0.1"
   }
 }
