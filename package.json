@@ -34,7 +34,7 @@
     "babel-preset-stage-3": "^6.24.1"
   },
   "devDependencies": {
-    "eslint": "^3.9.1",
+    "eslint": "^4.18.2",
     "eslint-config-travix": "^2.2.0",
     "eslint-plugin-import": "^2.0.1"
   }
