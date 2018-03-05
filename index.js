@@ -9,8 +9,7 @@ const babelPluginTransformFunctionBind = require('babel-plugin-transform-functio
 
 const targets = {
   node: 8,
-  android: 30,
-  chrome: 50,
+  chrome: 53,
   edge: 15,
   explorer: 11,
   firefox: 52,
