@@ -6,6 +6,9 @@ const babelPluginTransformClassProperties = require('babel-plugin-transform-clas
 const babelPluginTransformExportDefault = require('babel-plugin-transform-export-default');
 const babelPluginTransformEs2015ObjectSuper = require('babel-plugin-transform-es2015-object-super');
 const babelPluginTransformFunctionBind = require('babel-plugin-transform-function-bind');
+const babelPluginTransfromRemovePropTypes = require("babel-plugin-transform-react-remove-prop-types").default;
+
+const isProduction = process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'unstable';
 
 const targets = {
   node: 8,
@@ -29,5 +32,6 @@ module.exports = {
     babelPluginTransformEs2015ObjectSuper,
     babelPluginTransformExportDefault,
     babelPluginTransformFunctionBind,
-  ],
+    isProduction ? babelPluginTransfromRemovePropTypes : null,
+  ].filter(Boolean)
 };
