@@ -1,5 +1,13 @@
 # Change Log
 
+## [v1.2.0](https://github.com/Travix-International/babel-preset-travix/tree/v1.2.0) (2018-03-22)
+[Full Changelog](https://github.com/Travix-International/babel-preset-travix/compare/v1.1.1...v1.2.0)
+
+**Merged pull requests:**
+
+- Sets babel-preset-travix to Stage 3 + required plugins [\#25](https://github.com/Travix-International/babel-preset-travix/pull/25) ([mAiNiNfEcTiOn](https://github.com/mAiNiNfEcTiOn))
+- Update babel-preset-es2015 to babel-preset-env [\#27](https://github.com/Travix-International/babel-preset-travix/pull/27) ([leandrooriente](https://github.com/leandrooriente))
+
 ## [v1.1.1](https://github.com/Travix-International/babel-preset-travix/tree/v1.1.1) (2016-12-22)
 [Full Changelog](https://github.com/Travix-International/babel-preset-travix/compare/v1.1.0...v1.1.1)
 
