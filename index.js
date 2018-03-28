@@ -32,6 +32,6 @@ module.exports = {
     babelPluginTransformEs2015ObjectSuper,
     babelPluginTransformExportDefault,
     babelPluginTransformFunctionBind,
-    isProduction ? babelPluginTransfromRemovePropTypes : null,
+    isProduction && babelPluginTransfromRemovePropTypes,
   ].filter(Boolean)
 };
